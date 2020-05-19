@@ -10,4 +10,4 @@
 - envファイルを編集し、SQLiteを使用できるように設定する  
 https://qiita.com/hum_op/items/e7713b22880c97d9064e 
 - ポートは8000に限らないとする
-- ブランチはtraining00４_名前
+- ブランチはpractice004_名前
