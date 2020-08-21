@@ -831,6 +831,9 @@ nav li a{
     margin-right: 10px;
 }
 /*about-share*/
+.about-share-awards-content-intro-sentence-responsive{
+    display: none;
+}
 .about-share{
     height: 950px;
 }
@@ -1563,5 +1566,349 @@ footer{
 }
 /*画面幅が480pxまでの時(スマホレイアウト)*/
 @media screen and (max-width:480px){
+    .container{
+        overflow: hidden;
+    }
+    /*header*/
+    .header-1 p{
+        margin-left: 10%;
+        font-size: 9px;
+    }
+    .header-2{
+        height: 60px;
+    }
+    .header-content{
+        height: 40px;
+    }
+    .main-icon img{
+        width: 120px;
+        margin-left: 15%;
+    }
+    .header-content{
+        margin: 10px 4% 0 auto;
+    }
+    .map-box{
+        margin: 0;
+        padding-left: 10px;
+        border: none;
+    }
+    .map-box img{
+        display: none;
+    }
+    .call-box{
+        margin-right: 0;
+    }
+    .call-box img{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    /*about-work*/
+    hr{
+        display: none;
+    }
+    .about-work{
+        height: 1580px;
+    }
+    .about-work-group{
+        height: 550px;
+    }
+    .about-work-second-wrapper img{
+        width: 100px;
+        height: 100px;
+    }
+    .about-work-second-wrapper-p{
+        font-size: 15px;
+    }
+    #nav-drawer{
+        display: block;
+    }
+    .about-work-third-wrapper{
+        height: 1100px;
+    }
+    .about-work-third-wrapper-section{
+        display: block;
+    }
+    .about-work-third-wrapper-section-content{
+        margin: 0 auto;
+        width: 310px;
+        height: 270px;
+        margin-top: -7px;
+        margin-bottom: 30px;
+    }
+    .about-work-third-wrapper-section-content img{
+        padding-top: 30px;
+    }
+    .about-work-third-wrapper-section-content p{
+        margin: 0;
+    }
+    .about-work-third-wrapper-p{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 200px;
+    }
+    .common-btn{
+        display: none;
+    }
+    /*about-consultant*/
+    .about-consultant{
+        height: 1000px;
+    }
+    .about-consultant-intro{
+        margin: 0 auto;
+    }
+    .common-intro-sentence1{
+        margin-left:20%;
+        width: 350px;
+    }
+    .common-intro-sentence1 h4 {
+        font-size: 20px;
+    }
+    .about-consultant-img{
+        left: 0;
+        display: none;
+    }
+    .about-consultant-details{
+        display: block;
+    }
+    .about-consultant-detail1{
+        margin-left: 20%;
+    }
+    .about-consultant-datail2{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    /*about-business*/
+    .about-business{
+        height: 1600px;
+    }
+    .about-business-contents{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .common-intro-sentence2{
+        margin-left: 20%;
+    }
+    .common-intro-sentence2-detail{
+        display: block;
+    }
+    .about-business-content{
+        margin: 0 auto 20px auto;
+    }
+    /*about-network*/
+    .about-network{
+        height: 950px;
+    }
+    .about-network-intro{
+        margin: 80px  0  0 15%;
+    }
+    .about-network-pie-charts{
+        display:block;
+    }
+    .about-network-pie-chart p{
+        margin: 0;
+    }
+    .about-network-img{
+        display: none;
+    }
+    .chart2{
+        margin-top: 30px;
+    }
+    .chart2 img{
+        margin-right: 20px;
+    }
+    .chart2 h4{
+        width: 300px;
+    }
+    /*about-review*/
+    .about-review{
+        height: 800px;
+    }
+    .common-intro-sentence2 h4{
+        font-size: 22px;
+    }
+    .about-review-intro p{
+        margin-top: 10px;
+    }
+    .about-review-content img{
+        width: 350px;
+    }
+    .about-review-content-change-font{
+        width: 250px;
+        margin: 0 auto 35px auto;
+    }
+    /*about-questions*/
+    .about-questions h3{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .about-questions li{
+        width: 80%;
+    }
+    .about-questions li h4{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    .about-question-form{
+        width: 80%;
+        height: 510px;
+    }
+    .about-question-form h3{
+        font-size: 20px;
+    }
+    .about-question-form p{
+        font-size: 10px;
+    }
+    .about-question-form input{
+        width: 300px;
+    }
+    .about-question-form select{
+        width: 300px;
+    }
+    .about-question-form a{
+        width: 300px;
+    }
+    /*about-team*/
+    .about-team{
+        height: 1650px;
+    }
+    .about-teams-mens-content{
+        margin-top: 50px;
+    }
+    .about-teams-mens{
+        margin-top: -10px;
+    }
+    /*about-fact*/
+    .about-fact{
+        height: 790px;
+        display: block;
+    }
+    .about-fact-intro{
+        margin-left: 15%;
+    }
+    .about-fact-content-btn {
+        margin-left: 15%;
+    }
+    .about-fact-number{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .about-market li{
+        padding-top: 20px;
+    }
+    /*about-market*/
+    .about-market{
+        height: 2630px;
+    }
+    /*about-information*/
+    .about-information{
+        height: 1400px;
+    }
+    .about-information-intro{
+        margin-left: 15%;
+    }
+    .about-information-content{
+        margin-left: 15%;
+    }
+    .information-content-sentence-common p{
+        font-size: 11px;
+    }
+    .about-information-form input{
+        width: 95%;
+    }
+    .about-information-form textarea{
+        width: 95%;
+    }
+    .about-information-form a{
+        width: 175px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /*about-share*/
+    .about-share{
+        height: 1800px;
+    }
+    .about-share-awards{
+        display: block;
+    }
+    .about-share-awards-content{
+        width: 100%;
+    }
+    .about-share-awards-content-intro-sentence{
+        margin-top: 0;
+        
+    }
+    .about-share-awards-content-intro-sentence h4{
+        font-size: 20px;
+        margin: 0;
+    }
+    .about-share-awards-content-intro-sentence{
+        width: 300px;
+       padding-top: 35px;
+        margin-left: 15%;
+    }
+    .about-share-awards-img-group1{
+        display: flex;
 
+    }
+    .about-share-awards-img-group1 div,.about-share-awards-img-group2 div{
+        border-bottom: none;
+        border-left: 1px solid #68686831;
+    }
+    .about-share-awards-img-group2{
+        display: flex;
+    }
+    .about-share-section-content-sentence{
+        margin-left: 12%;
+    }
+    .about-share-section-content-1{
+        margin-bottom: 60px;
+    }
+    .about-share-icons{
+        margin-top: 90px;
+        text-align: center;
+    }
+    .about-share-icons img{
+        width: 110px;
+        margin-left: 15%;
+    }
+    /*footer*/
+    footer{
+        height: 800px;
+    }
+    .footer-content{
+        padding-top: 40px;
+    }
+    .address{
+        display: block;
+    }
+    .addrese-section{
+        margin-left: 0;
+    }
+    .footer-main-icon img{
+        width: 130px;
+        margin-bottom: 20px;
+    }
+    .footer-common-sentence h4{
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    .links-wrap{
+        display: block;
+    }
+    .newsletter{
+        margin-top: 30px;
+        margin-left: 15%;
+    }
+    .newsletter p{
+       margin-top: 20px;
+    }
+    .newletter-icons img{
+        width: 130px;  
+    }
+    .footer-bottom p{
+        font-size: 12px;
+    }
 }
