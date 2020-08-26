@@ -17,20 +17,19 @@ main{
     background-color: #383838;
     height: 3.1vw;
     display:flex;
+    justify-content: space-around;
     align-items: center;
 }
 .header-1 p{
     color: white;
     font-size: 1vw;
-    margin-left:15vw;
 }
 .first-span{
     color:#B9292B;
 }
 .social-icons{
     display: flex;
-    margin-right: 210px;
-    margin-left:auto;
+    
 }
 .icons{
     width: 25px;
@@ -59,15 +58,15 @@ main{
     height: 115px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
+
 .header-content{
     display: flex;
-    margin-right: 210px;
-    margin-left:auto;
     font-size: 10px;
 }
 .main-icon img{
-    margin-left: 210px;
+    
     width:225px;
 }
 .call-box{
@@ -204,16 +203,13 @@ nav li a{
     display: flex;
     margin-right: 225px;
 }
-.about-work-third-wrapper-btn-1,.about-work-third-wrapper-btn-2{
-    position: absolute;
-    margin-top: 140px;
+.about-work-third-wrapper-btn-1{
+    margin-right: -20px;
     z-index: 2;
 }
-.about-work-third-wrapper-btn-1{
-    left: 225px;
-}
 .about-work-third-wrapper-btn-2{
-    left: 1175px;
+    margin-left: -20px;
+    z-index: 2;
 }
 .common-btn{
     display: inline-block;
@@ -231,6 +227,7 @@ nav li a{
     justify-content: center;
     position: relative;
     z-index: 1;
+    align-items: center;
 }
 .about-work-third-wrapper-section-content{
     background-color: #FFFFFF;
@@ -324,7 +321,7 @@ nav li a{
 .about-consultant-details{
     display: flex;
     flex-wrap: wrap;
-    width: 480px;
+    width: 500px;
 }
 .about-consultant-detail1{
     margin-right: 25px;
@@ -445,13 +442,15 @@ nav li a{
 }
 .about-review-content{
     text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-review-content img{
     width: 370px;
     margin: 25px 0 15px 0;
 }
-.about-review-content p,.about-review-content h5,.about-review-content-btns a,.about-question-form a{
+.about-review-content p,.about-review-content h5,.about-review-content a,.about-question-form a{
     color: white;
 }
 .about-review-content p{
@@ -466,18 +465,16 @@ nav li a{
 .about-review-content h5{
     margin-bottom: 10px;
 }
-.about-review-content-btns{
-    display: flex;   
-    margin-left: 300px;
-}
-.about-review-content-btns a{
+
+.about-review-content a{
     background-color: #3A3939;
     box-shadow: none;
 }
-.about-review-content-btn1,.about-review-content-btn2{
-    position: absolute;
-    margin-top: 180px;
-    z-index: 2;
+.about-review-content-btn1{
+    margin-right: 30px;
+}
+.about-review-content-btn2{
+    margin-left: 30px;
 }
 .about-review-content-btn1{
     left: 350px;
@@ -634,9 +631,7 @@ nav li a{
     color: white;
     display: flex;
     justify-content: center;
-}
-.about-fact-content{
-    padding-top: 80px;
+    align-items: center;
 }
 .about-fact-content-btn{
     margin-left:75px;
@@ -646,7 +641,6 @@ nav li a{
     height: 350px;
     width: 500px;
     position: relative;
-    margin-top: 100px;  
 }
 .about-fact-number-common{
     background-color: #2D2C2C;
@@ -952,10 +946,11 @@ footer{
 }
 .footer-content{
     display: flex;
+    justify-content: center;
     padding-top: 80px;
 }
 .address{
-    margin-left: 260px;
+  
 }
 .footer-main-icon img{
     width: 200px;
@@ -1781,6 +1776,7 @@ footer{
     }
     .about-fact-intro{
        margin: 0 auto;
+       padding-top: 80px;
     }
     .about-fact-content{
         margin: 0 auto;
